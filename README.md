@@ -11,6 +11,6 @@
 
 ## Week 02
 - **AI Tool Used:** Gemini
-- **Prompt Used:** Bu ödevin metnini yapay zekaya verdim.
+- **Prompt Used:** .Python'da sonsuz döngüyle çalışan bir öğrenci not hesaplama programı yazıyorum. Kullanıcı yanlışlıkla sayı yerine harf girerse programın çökmesini nasıl engellerim ve genel ortalamayı virgülden sonra sadece 2 basamak olacak şekilde nasıl yuvarlayabilirim?" diye sordum.
 - **What did you change?** Kodun hata vermemesi için sayı dönüşümlerini ekledim ve çıktı formatını yönergeye göre düzenledim.
 - **What does break do in your program?** Kullanıcı çıkmak için "q" harfine bastığında sonsuz döngüyü (while döngüsünü) anında sonlandırır.
