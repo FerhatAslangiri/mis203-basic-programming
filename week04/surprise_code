@@ -1,0 +1,40 @@
+import random
+import time
+
+# Toplam süreyi hesaplamak için başlangıç zamanını kaydediyoruz
+start_time = time.time()
+
+print("=" * 50)
+print("        WELCOME TO THE READING MACHINE        ")
+print("=" * 50)
+
+# Kullanıcının hazır olmasını bekliyoruz
+input("\nZihninden 1 ile 10 arasında bir sayı tut. Hazır olduğunda Enter'a bas...")
+
+print("\nHarika! Şimdi makine zihnini okuyor...")
+
+# time kütüphanesini kullanarak heyecan yaratacak adımlar oluşturuyoruz
+loading_steps = [
+    "Beyin dalgaları taranıyor...",
+    "Kuantum olasılıkları analiz ediliyor...",
+    "Dijital kehanete danışılıyor...",
+    "Neredeyse bitti..."
+]
+
+# for döngüsü ile her adımı sırayla ekrana yazdırıp 1 saniye bekletiyoruz
+for step in loading_steps:
+    print(step)
+    time.sleep(1)  # 1 saniyelik gecikme ekler
+
+# random kütüphanesi ile 1-10 arasında rastgele bir sayı üretiyoruz
+predicted_number = random.randint(1, 10)
+
+# Geçen toplam süreyi hesaplıyoruz
+elapsed_time = round(time.time() - start_time, 2)
+
+print("-" * 50)
+print(f"🔮 Kehanet tamamlandı! Tuttuğun sayı...")
+time.sleep(1.5)
+print(f"✨ **{predicted_number}** ✨")
+print(f"\n⚡ Bu analiz toplam {elapsed_time} saniye sürdü.")
+print("-" * 50)
