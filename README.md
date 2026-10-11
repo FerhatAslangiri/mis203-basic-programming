@@ -25,3 +25,10 @@
   3. Input: Name: Mehmet, Age: 22, Day: weekday, Student: yes -> Result: Mehmet: 140.00 TRY (Student)
 - **Why does the order of the rules matter?** 
   The order matters because Python evaluates conditional statements (`if-elif-else`) sequentially from top to bottom and stops at the first match. If the Student rule came before the Child rule, a 10-year-old student would be incorrectly categorized as a Student (30% discount) instead of a Child (40% discount).
+
+# week04
+A simple and interactive Python mind-reading game built with `random` and `time` standard libraries.
+## 🚀 Features
+- Interactive console experience
+- Suspense effect with simulated delays
+- Built using only Python standard libraries
